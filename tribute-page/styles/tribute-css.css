@@ -1,0 +1,210 @@
+/*============ Fonts & Color Scheme ==================
+font-family: 'Shrikhand', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+black #000000;
+white #ffffff;
+gold #fedd12;
+red #e51106;
+
+
+============================================*/
+
+
+/*============ Background =================*/
+
+body {
+    background-color: #000000;
+    padding: 70px;
+}
+
+#paper-tear1-img {
+    height: 600px;
+    width: 375px;
+    position: relative;
+    float: right;
+    margin: 15px 0px 15px 0px;
+}
+
+
+/*=============== HTML Elements ============*/
+
+.clear-float {
+    clear: both;
+}
+
+.container {
+    padding: 0%;
+}
+
+
+/*========== Nav Bar =============================*/
+
+.nav-scheme {
+    background-color: #808080;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+
+/*========== Intro Styles ==================*/
+
+#intro-text {
+    position: relative;
+    color: #ffffff;
+    font-size: 140%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+
+#lifetime-text {
+    position: relative;
+    color: #ffffff;
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+}
+
+#main-header {
+    font-family: 'Shrikhand', cursive;
+    position: relative;
+    text-align: left;
+    top: 10px;
+    font-size: 700%;
+    color: #fedd12;
+}
+
+#quote-text {
+    position: relative;
+    color: #ffffff;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 70px;
+    font-style: italic;
+}
+
+#quote-name {
+    position: relative;
+    float: right;
+    color: #ffffff;
+    font-size: 140%;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 110%;
+}
+
+.quotes {
+    display: none;
+    position: relative;
+    color: #ffffff;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 70px;
+    font-style: italic;
+}
+
+
+/*================= First View ==============*/
+
+.glance-card {
+    position: absolute;
+    margin: 15px 0px 15px 0px;
+}
+
+.section-title {
+    position: relative;
+    border: 10px groove #fedd12;
+    margin: 15px 0px 15px 0px;
+    font-family: 'Shrikhand', cursive;
+    color: #fedd12;
+    text-align: center;
+    font-size: 300%;
+}
+
+.text-left {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: left;
+}
+
+.text-right {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: right;
+}
+
+.text-center {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.view1-article {
+    position: relative;
+    margin: 15px 10px 0px 10px;
+    text-align: left;
+    float: left;
+}
+
+.view2-article {
+    position: relative;
+    margin: 15px 0px 15px 10px;
+    text-align: right;
+    float: right;
+}
+
+.red-nose {
+    position: absolute;
+    margin: 15px 0px 15px 0px;
+    height: 880px;
+    width: 970px;
+}
+
+
+/*================== Timeline =======================*/
+
+.timeline-card {
+    border-bottom: 10px #fedd12 groove;
+    margin: 15px 0px 15px 0px;
+    padding: 0;
+}
+
+.card-title {
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.timeline-photo {
+    position: relative;
+    padding: 0;
+    margin: 15px 0px 15px 0px;
+}
+
+.timeline-vid-div {
+    position: relative;
+    float: left;
+    margin: 15px 0px 15px 0px;
+}
+
+.timeline-vid {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+
+/*============== Footer =========================*/
+
+.text-footer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.view-footer {
+    margin: 40px 0px 0px 10px;
+    text-align: center;
+}
